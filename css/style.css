@@ -281,11 +281,9 @@ p,span{
 .features__description-block{
     padding-right: 30px;
 }
-.features__heading{
-    color: #000000;
-}
 .features__description{
     margin: 30px 0;
+    color: #ffffff;
 }
 .features__button{
     width: 200px;
@@ -300,6 +298,12 @@ p,span{
     justify-content: space-around;
 }
 .features__feature{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 24px;
+}
+/*-- Order --*/
+.order{
+    background: #390c3d; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #390c3d 20%, #a51078 50%, #390c3d 80%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
