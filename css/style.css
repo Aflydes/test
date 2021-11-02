@@ -206,8 +206,11 @@ p,span{
     width: 150px;
     height: 40px;
 }
+/*-- Reviews --*/
 .reviews{
-    min-height: 60vh;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
     background-color: #390c3d ;
     background-image:
     radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
@@ -216,4 +219,21 @@ p,span{
     radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+.reviews__slider{
+    margin: 0 auto;
+    max-width: 720px;
+}
+.reviews__slide{
+    margin: 0 20px;
+    padding: 20px 30px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.reviews__photo img{
+    width: 150px;
+}
+.reviews__name{
+    margin: 15px 0;
+    color: #000000;
 }
