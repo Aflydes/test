@@ -162,9 +162,9 @@ p,span{
 /*-- Consist --*/
 .consist{
     background: #390c3d; /* Old browsers */
-    background: -moz-linear-gradient(left,  #390c3d 20%, #a51078 50%, #390c3d 80%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(-45deg, #390c3d 20%, #a51078 50%, #390c3d 80%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .consist .container{
     display: flex;
@@ -210,14 +210,10 @@ p,span{
     min-height: 70vh;
     display: flex;
     align-items: center;
-    background-color: #390c3d ;
-    background-image:
-    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    background: #390c3d; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #390c3d 20%, #a51078 50%, #390c3d 80%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .reviews__slider{
     position: relative;
@@ -232,29 +228,37 @@ p,span{
 }
 .slider-arrow{
     position: absolute;
-    top: calc(50% - 15px);
+    top: calc(50% - 25px);
     z-index: 3;
+    width: 26px;
+    height: 45px;
 }
 .slider-arrow:before,
-.slider-arrow::after{
-    position: absolute;
+.slider-arrow::after {
     content: '';
+    position: absolute;
+    top: 10px;
     width: 30px;
     height: 5px;
     background: #a4a4a4;
     transform: rotate(45deg);
 }
 .next-arrow{
-    right: 0;
+    right: -25px;
 }
-
+.prev-arrow {
+    left: -30px;
+}
 .next-arrow::after{
-    top: 18px;
+    top: 28px;
+    transform: rotate(-45deg);
+}
+.prev-arrow::before{
     transform: rotate(-45deg);
 }
 .prev-arrow::after{
-    top: 18px;
-    transform: rotate(-45deg);
+    top: 28px;
+    transform: rotate(45deg);
 }
 .reviews__photo img{
     width: 150px;
@@ -264,6 +268,12 @@ p,span{
     color: #000000;
 }
 /*-- features --*/
+.features{
+    background: #390c3d; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #390c3d 20%, #a51078 50%, #390c3d 80%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 .features__inner-section{
     display: flex;
     align-items: center;
@@ -283,4 +293,13 @@ p,span{
 }
 .features__image{
     width: 450px;
+}
+.features__list{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.features__feature{
+    font-size: 20px;
+    font-weight: 500;
 }
