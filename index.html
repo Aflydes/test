@@ -97,6 +97,7 @@
         </div>
         <div class="reviews" id="reviews">
             <div class="container">
+                <h2 class="reviews__heading">отзывы</h2>
                 <div class="reviews__slider">
                     <div class="reviews__slide">
                         <div class="reviews__photo">
@@ -147,26 +148,27 @@
             <div class="container">
                 <div class="order__info">
                     <h2 class="order__heading">Успей заказать LevelUp</h2>
-                    <p class="order__countdown" id="countdown"></p>
+                    <div class="order__sale-info">
+                        <p class="order__countdown" id="countdown"></p>
+                        <p class="order__old-price">2000</p>
+                        <p class="order__new-price">1000</p>
+                    </div>
                 </div>
                 <div class="order__inner-section">
                     <div class="order__form">
                         <form action="">
-
+                            <input type="text" class="order__input input-name"> 
+                            <input type="text" class="order__input input-phone">
+                            <button type="submit" class="order__button button"></button>
                         </form>
                     </div>
                     <div class="order__image">
-
+                        <img src="img/prod.png" alt="Product">
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="footer">
-        <div class="container">
-
-        </div>
-    </footer>
 </body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -215,6 +215,9 @@ p,span{
     background: -webkit-linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+.reviews__heading{
+    margin-bottom: 30px;
+}
 .reviews__slider{
     position: relative;
     margin: 0 auto;
