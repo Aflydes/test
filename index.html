@@ -12,26 +12,15 @@
     <title>LevelUp</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-               <!-- <object data="img/logo.svg" type="image/svg+xml"></object>-->
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li><a href="#promo" class="header__nav-link">Главная</a></li>
-                    <li><a href="#consist" class="header__nav-link">Состав</a></li>
-                    <li><a href="#reviews" class="header__nav-link">Отзывы</a></li>
-                    <li><a href="#features" class="header__nav-link">Характеристики</a></li>
-                </ul>
-            </nav>
-            <a href="#order" class="header__button button">
-                <span class="button__body">Заказать</span>
-            </a>
-        </div>
-    </header>
+
     <main class="main">
         <div class="promo" id="promo">
+            <div class="background-video">
+                <video autoplay muted loop class="bg-video">
+                    <source src="img/bg-video.mp4" type="video/mp4" />
+                  </video>
+            </div>
+            <div class="overlay"></div>
             <div class="container">
                 <h1 class="promo__heading">LevelUp</h1>
                 <div class="promo__inner-section">
@@ -53,12 +42,70 @@
         </div>
         <div class="consist" id="consist">
             <div class="container">
-                
+                <div class="consist-col consist">
+                    <div class="consist__elem">
+                        <div class="consist__elem-image"></div>
+                        <p class="consist__elem-description">Lorem ipsum dolor sit amet, consectetur</p>
+                        <a href="#order" class="consist__button button">
+                            <span class="button__body">Заказать</span>
+                        </a>
+                    </div>
+                    <div class="consist__elem">
+                        <div class="consist__elem-image"></div>
+                        <p class="consist__elem-description">Lorem ipsum dolor sit amet, consectetur</p>
+                        <a href="#order" class="consist__button button">
+                            <span class="button__body">Заказать</span>
+                        </a>
+                    </div>
+                    <div class="consist__elem">
+                        <div class="consist__elem-image"></div>
+                        <p class="consist__elem-description">Lorem ipsum dolor sit amet, consectetur</p>
+                        <a href="#order" class="consist__button button">
+                            <span class="button__body">Заказать</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="consist-col product-image">
+                    <img src="img/prod.png" alt="">
+                </div>
+                <div class="consist-col consist">
+                    <div class="consist__elem">
+                        <div class="consist__elem-image"></div>
+                        <p class="consist__elem-description">Lorem ipsum dolor sit amet, consectetur</p>
+                        <a href="#order" class="consist__button button">
+                            <span class="button__body">Заказать</span>
+                        </a>
+                    </div>
+                    <div class="consist__elem">
+                        <div class="consist__elem-image"></div>
+                        <p class="consist__elem-description">Lorem ipsum dolor sit amet, consectetur</p>
+                        <a href="#order" class="consist__button button">
+                            <span class="button__body">Заказать</span>
+                        </a>
+                    </div>
+                    <div class="consist__elem">
+                        <div class="consist__elem-image"></div>
+                        <p class="consist__elem-description">Lorem ipsum dolor sit amet, consectetur</p>
+                        <a href="#order" class="consist__button button">
+                            <span class="button__body">Заказать</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="reviews" id="reviews">
             <div class="container">
-                
+                <div class="reviews__slider">
+                    <div class="reviews__slide">
+                        <div class="reviews__photo">
+
+                        </div>
+                        <h3 class="reviews__name">Андрей</h3>
+                        <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="reviews__slide"></div>
+                    <div class="reviews__slide"></div>
+                </div>
             </div>
         </div>
         <div class="features" id="features">
