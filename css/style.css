@@ -39,13 +39,6 @@ ul{
 html {
     scroll-behavior: auto; 
 }
-h1{
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 130%;
-    text-transform: uppercase;
-}
 h2{
     color: #ffffff;
     font-size: 32px;
@@ -113,6 +106,9 @@ p,span{
 }
 .promo__heading{
     font-size: 60px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
     -webkit-text-stroke: 2px #ffffff;
     -webkit-text-fill-color: transparent;
 }
@@ -235,6 +231,7 @@ p,span{
     z-index: 3;
     width: 26px;
     height: 45px;
+    cursor: pointer;
 }
 .slider-arrow:before,
 .slider-arrow::after {

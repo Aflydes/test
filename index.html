@@ -16,17 +16,18 @@
 <body>
 
     <main class="main">
-        <div class="promo" id="promo">
+        <div class="main-promo promo" id="promo">
             <div class="background-video">
                 <video autoplay muted loop class="bg-video">
                     <source src="img/bg-video.mp4" type="video/mp4" />
-                  </video>
+                </video>
             </div>
             <div class="overlay"></div>
             <div class="container">
                 <h1 class="promo__heading">LevelUp</h1>
                 <div class="promo__inner-section">
                     <div class="promo__features">
+                        <h2 class="promo__heading-secondary">Наши преймущества:</h2>
                         <ul class="promo__features-list">
                             <li class="promo__feature">Lorem ipsum#1</li>
                             <li class="promo__feature">Lorem ipsum#2</li>
@@ -37,12 +38,14 @@
                         </a>
                     </div>
                     <div class="promo__image">
-                        <img src="img/prod.png" alt="">
+                        <picture>
+                            <img srcset="img/prod.png" alt="Product">
+                        </picture>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="consist" id="consist">
+        <div class="main-consist consist" id="consist">
             <div class="container">
                 <div class="consist-col">
                     <div class="consist__elem">
@@ -68,7 +71,9 @@
                     </div>
                 </div>
                 <div class="consist-col product-image">
-                    <img src="img/prod.png" alt="">
+                    <picture>
+                        <img srcset="img/prod.png" alt="Product">
+                    </picture>
                 </div>
                 <div class="consist-col">
                     <div class="consist__elem">
@@ -95,27 +100,33 @@
                 </div>
             </div>
         </div>
-        <div class="reviews" id="reviews">
+        <div class="main-reviews reviews" id="reviews">
             <div class="container">
                 <h2 class="reviews__heading">отзывы</h2>
                 <div class="reviews__slider">
                     <div class="reviews__slide">
                         <div class="reviews__photo">
-                            <img src="img/avatar.png" alt="avatar">
+                            <picture>
+                                <img srcset="img/avatar.png" alt="Product">
+                            </picture>
                         </div>
                         <h3 class="reviews__name">Андрей</h3>
                         <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     <div class="reviews__slide">
                         <div class="reviews__photo">
-                            <img src="img/avatar.png" alt="avatar">
+                            <picture>
+                                <img srcset="img/avatar.png" alt="Product">
+                            </picture>
                         </div>
                         <h3 class="reviews__name">Кирилл</h3>
                         <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     <div class="reviews__slide">
                         <div class="reviews__photo">
-                            <img src="img/avatar.png" alt="avatar">
+                            <picture>
+                                <img srcset="img/avatar.png" alt="Product">
+                            </picture>
                         </div>
                         <h3 class="reviews__name">Павел</h3>
                         <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -123,7 +134,7 @@
                 </div>
             </div>
         </div>
-        <div class="features" id="features">
+        <div class="main-features features" id="features">
             <div class="container">
                 <div class="features__inner-section">
                     <div class="features__description-block">
@@ -134,7 +145,9 @@
                         </a>
                     </div>
                     <div class="features__image-block">
-                        <img class="features__image" src="img/doctor.png" alt="Doctor">
+                        <picture>
+                            <img srcset="img/prod.png" alt="Product">
+                        </picture>
                     </div>
                 </div>
                 <ul class="features__list">
@@ -144,7 +157,7 @@
                 </ul>
             </div>
         </div>
-        <div class="order" id="order">
+        <div class="main-order order" id="order">
             <div class="container">
                 <div class="order__info">
                     <h2 class="order__heading">Успей заказать LevelUp</h2>
@@ -162,8 +175,10 @@
                             <button type="submit" class="order__button button"></button>
                         </form>
                     </div>
-                    <div class="order__image">
-                        <img src="img/prod.png" alt="Product">
+                    <div class="order__picture">
+                        <picture>
+                            <img class="order__image" srcset="img/prod.png" alt="Product">
+                        </picture>
                     </div>
                 </div>
             </div>
