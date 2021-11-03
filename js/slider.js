@@ -3,7 +3,7 @@ $(document).ready(function(){
         dots: false,
         prevArrow: '<div class="slider-arrow prev-arrow"></div>',
 		nextArrow: '<div class="slider-arrow next-arrow"></div>',
-        infinite: true,
+        infinite: false,
         speed: 300,
         slidesToShow: 1,
       });
