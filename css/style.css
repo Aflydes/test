@@ -148,7 +148,7 @@ p,span{
     top: calc(50% - 12px);
     width: 24px;
     height: 24px;
-    background-image: url(../img/strange.svg);
+    background-image: url(../assets/img/strange.svg);
 }
 .promo__button{
     margin: 15px 0;
@@ -310,7 +310,7 @@ p,span{
     top: calc(50% - 12px);
     width: 24px;
     height: 24px;
-    background-image: url(../img/strange.svg);
+    background-image: url(../assets/img/strange.svg);
 }
 /*-- Order --*/
 .order{
