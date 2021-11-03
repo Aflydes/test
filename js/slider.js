@@ -6,5 +6,12 @@ $(document).ready(function(){
         infinite: false,
         speed: 300,
         slidesToShow: 1,
+        responsive: [
+            {
+              breakpoint: 800,
+              settings: {
+                arrows: false,
+              }
+            },]
       });
 });

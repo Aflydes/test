@@ -206,9 +206,6 @@ p,span{
 }
 /*-- Reviews --*/
 .reviews{
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
     background: #390c3d; /* Old browsers */
     background: -moz-linear-gradient(45deg, #390c3d 20%, #a51078 50%, #390c3d 80%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
@@ -323,7 +320,7 @@ p,span{
     background: linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .order__heading{
-    display: inline-block;
+    display: inline;
 }
 .order__countdown{
     position: relative;
