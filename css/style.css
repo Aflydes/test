@@ -67,11 +67,18 @@ p,span{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
-    background-color: #10104b;
+    color: #000000;
+    background-color: #e3af00;
     border-radius: 5px;
     box-shadow: 0px 4px 10px 0px #00020240;
     text-transform: uppercase;
+}
+.button:hover{
+    border: 2px outset #866a0f;
+}
+.button:active{
+    border-style: inset;
+    box-shadow: 0px 0px 15px 5px rgba(227, 175, 0, 0.3);
 }
 .background-video{
     position: absolute;
@@ -306,4 +313,77 @@ p,span{
     background: -moz-linear-gradient(45deg, #390c3d 20%, #a51078 50%, #390c3d 80%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(45deg, #390c3d 20%,#a51078 50%,#390c3d 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.order__heading{
+    display: inline-block;
+}
+.order__countdown{
+    position: relative;
+    font-size: 50px;
+    text-shadow: #e3af00 1px 0 10px;
+    text-align: center;
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+.order__countdown:before,
+.order__countdown:after{
+    content: '';
+    position: absolute;
+    top: 32px;
+    width: calc(100%/2 - 145px);
+    height: 10px;
+    background: #e3af00; /* Old browsers */
+    background: -moz-linear-gradient(top, #e3af00 0%, transparent 35%, transparent 65%, #e3af00 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e3af00 0%,transparent 35%,transparent 65%,#e3af00 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e3af00 0%, transparent 35%,transparent 65%,#e3af00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 2px;
+}
+.order__countdown:before{
+    left: 0;
+}
+.order__countdown:after{
+    right: 0;
+}
+.order__old-price{
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+.order__new-price{
+    font-size: 32px;
+}
+.order__inner-section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.order__form{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.order__input{
+    margin: 20px 0;
+    padding: 10px;
+    width: 250px;
+    display: block;
+    color: #000000;
+    background-color: #ffffff4d;
+    font-size: 24px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px 0px #00020240;
+}
+.order__input:focus-visible{
+    outline: none;
+}
+.order__input::-webkit-input-placeholder { 
+    color:#2c2c2c;
+ }
+.order__button {
+    margin-top: 15px;
+    height: 50px;
+    font-weight: 500;
+    border: none;
 }
