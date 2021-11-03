@@ -14,4 +14,6 @@ window.onload =  function(){
             document.getElementById("countdown").innerHTML = "Время вышло";
         }
     }, 1000);
+
+    
 }
