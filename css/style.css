@@ -354,11 +354,14 @@ p,span{
 }
 .order__old-price{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 30px;
     text-decoration: line-through;
 }
 .order__new-price{
-    font-size: 32px;
+    font-size: 48px;
+    text-shadow: #e3af00 1px 0 10px;
+    text-align: center;
+    color:#ffffff;
 }
 .order__inner-section{
     margin-top: 30px;
