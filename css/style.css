@@ -301,9 +301,19 @@ p,span{
     justify-content: space-around;
 }
 .features__feature{
+    position: relative;
     font-size: 24px;
     color: #ffffff;
     border-bottom: 1px solid #e3af00;
+}
+.features__feature::before{
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: calc(50% - 12px);
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/strange.svg);
 }
 /*-- Order --*/
 .order{
